@@ -9,4 +9,8 @@ def main(n):
     Returns:
         list: return  answer
     """
-    return
+
+    list1=list(range(n))
+    return list1
+n=int(input())
+print(main(n))
