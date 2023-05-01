@@ -7,4 +7,8 @@ def main(k,n):
     Returns:
         list: return  answer
     """
-    return
+    list1=[k]
+    return list1 * n
+k=int(input(""))
+n=int(input(""))
+print(main(k,n))
